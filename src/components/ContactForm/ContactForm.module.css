@@ -1,0 +1,38 @@
+.formContainer {
+     border: 1px solid black;
+  border-radius: 8px;
+  padding: 36px;
+  max-width: 400px;
+  margin-bottom: 24px;
+}
+
+.container {
+   display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 24px; 
+}
+
+.label {
+font-size: 18px;
+  font-weight: 500;
+}
+
+.input {
+padding: 12px;
+  font-size: 18px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  outline: none;
+}
+
+.errorMessage {
+    font-size: 16px;
+        color: red;
+}
+
+.addContactBtn {
+    display: block;
+  margin: 0 auto;
+  border: 1px solid grey;
+}
